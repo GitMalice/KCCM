@@ -165,6 +165,33 @@ body a {
   color: var(--secondary);
 }
 
+/*taille des étiquettes de texte de téléchargement*/
+body a .txt_download {
+  font-size: 1.5em;
+}
+
+/*taille des boutons de téléchargement*/
+a.wp-block-file__button.wp-element-button {
+  font-size: 1em;
+  padding : 10px;
+  display: inline-block;
+  margin-top: -2px;
+}
+
+/*style bouton back to top*/
+.wp-block-button.is-style-outline .wp-block-button__link:not(.has-background){
+  width: auto;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: #fff !important;
+  padding: 10px;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:not(.has-background):visited{
+    color: var(--secondary) !important;
+}
+
 
 
 
