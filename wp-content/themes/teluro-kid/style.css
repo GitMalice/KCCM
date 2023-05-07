@@ -156,7 +156,11 @@ body a {
 #colibri .style-9 > div > .colibri-menu-container > ul.colibri-menu > li:hover,
 #colibri .style-8 > div > .colibri-menu-container > ul.colibri-menu:hover,
 #colibri .style-8 > div > .colibri-menu-container > ul.colibri-menu > div:hover,
-#colibri .style-101 .comment-body .reply a
+#colibri .style-101 .comment-body .reply a,
+.post-nav-button a span:active,
+.post-nav-button a span:focus,
+.post-nav-button a span:visited,
+.post-nav-button a span:hover
  {
   color: var(--secondary);
 }
